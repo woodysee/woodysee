@@ -27,8 +27,17 @@ h3 {
 }
 
 #about-me-header-arrow {
-  width: 13%;
-  margin: 30px 40vw;
-  opacity: 0.2;
   filter: alpha(opacity=50); /*For IE8 and below*/
+  margin: 120px 45vw 0 45vw;
+  opacity: 0.2;
+  width: 13%;
+}
+
+label#about-me-header-arrow-label {
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin: 10px 40vw 0 45vw;
+  opacity: 0.2;
 }

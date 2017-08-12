@@ -20,10 +20,8 @@ class Landing extends Component {
         <h2>I am a web developer who aspires to build friendly user interfaces &amp; good user experiences.</h2>
         <h3>Let your <span>passion</span> be my <span>mission</span>.</h3>
 
-        <div className="container-fluid">
-          <img id="about-me-header-arrow" src={seeBelowArrow}/>
-        </div>
-
+        <img id="about-me-header-arrow" src={seeBelowArrow}/>
+        <label id="about-me-header-arrow-label">SCROLL FOR MORE</label>
         <AboutMe/>
 
       </div>
