@@ -1,0 +1,34 @@
+* {
+  background-color: rgba(88, 78, 82, 1);
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 60px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  margin: 150px 100px 0px 100px;
+}
+
+h2 {
+  color: rgba(181, 224, 242, 1);
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 30px 100px 0px 100px;
+}
+
+h3 {
+  color: rgba(181, 224, 242, 1);
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 30px 100px 0px 100px;
+}
+
+#about-me-header-arrow {
+  width: 13%;
+  margin: 30px 40vw;
+  opacity: 0.2;
+  filter: alpha(opacity=50); /*For IE8 and below*/
+}
