@@ -14,13 +14,13 @@ class Navbar extends Component {
           <img id="navbar-logo" src={logo}/>
           <ul id="navbar-list">
             <li id="navbar-list-item-first">
-              PROJECTS
+              <Link id="navbar-first-Link" to="/projects">PROJECTS</Link>
             </li>
             <li id="navbar-list-item-middle">
-              SHOWREEL
+              <Link id="navbar-middle-Link" to="/showreel">SHOWREEL</Link>
             </li>
             <li id="navbar-list-item-last">
-              GET IN TOUCH
+              <Link id="navbar-last-Link" to="/contact">GET IN TOUCH</Link>
             </li>
           </ul>
         </nav>

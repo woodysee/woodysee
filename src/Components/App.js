@@ -8,12 +8,18 @@ import './App.css';
 
 //Importing site components
 import Landing from './Landing/Landing';
+import Projects from './Projects/Projects';
+import Showreel from './Showreel/Showreel';
 
 class App extends Component {
   render() {
     return (
       <Router>
+        <div>
          <Route exact path="/" component={Landing}/>
+         <Route path="/projects" component={Projects}/>
+         <Route path="/showreel" component={Showreel}/>
+        </div>
       </Router>
     );
   }

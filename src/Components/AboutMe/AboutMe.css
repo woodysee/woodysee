@@ -1,3 +1,38 @@
 .aboutme-container {
-  margin: 90px 100px 0px 100px;
+  margin: 200px 100px 0px 100px;
+}
+
+#aboutme-picture {
+  clip: rect(50px,500px,350px,0px); /*top 50px because it is cropped above*/
+  margin: 0 0 0 0;
+  opacity: 0.7;
+  position: absolute;
+  top: -50px;
+  width: 600px;
+}
+
+h1#aboutme-h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 60px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  margin: 0px 0px 0px 0px;
+}
+
+h2#aboutme-h2 {
+  color: rgba(181, 224, 242, 1);
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 25px 0px 0px 0px;
+  text-align: justify;
+}
+
+h3#aboutme-h3 {
+  color: rgba(181, 224, 242, 1);
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 50px 0px 50px 0px;
+  text-align: justify;
 }

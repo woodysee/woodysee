@@ -29,13 +29,28 @@ li#navbar-list-item-first {
   margin-right: 25px;
 }
 
+#navbar-first-Link {
+  color: rgba(181, 224, 242, 1);
+  text-decoration: none;
+}
+
 li#navbar-list-item-middle {
   display: inline;
   margin-left: 25px;
   margin-right: 25px;
 }
 
+#navbar-middle-Link {
+  color: rgba(181, 224, 242, 1);
+  text-decoration: none;
+}
+
 li#navbar-list-item-last {
   display: inline;
   margin-left: 25px;
+}
+
+#navbar-last-Link {
+  color: rgba(181, 224, 242, 1);
+  text-decoration: none;
 }
