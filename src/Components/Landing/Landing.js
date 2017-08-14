@@ -10,6 +10,11 @@ import Navbar from '../Navbar/Navbar';
 import AboutMe from '../AboutMe/AboutMe';
 
 class Landing extends Component {
+
+  constructor(props) {
+    super(props);
+  };
+
   render() {
     return (
       <div className="landing">
@@ -21,7 +26,7 @@ class Landing extends Component {
         <h3>Let your <span>passion</span> be my <span>mission</span>.</h3>
 
         <img id="about-me-header-arrow" src={seeBelowArrow}/>
-        <label id="about-me-header-arrow-label">SCROLL FOR MORE</label>
+        <label id="about-me-header-arrow-label">ABOUT MYSELF</label>
         <AboutMe/>
 
       </div>

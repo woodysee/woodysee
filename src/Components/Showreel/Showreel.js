@@ -14,7 +14,7 @@ class Showreel extends Component {
 
         <Navbar/>
 
-        <h1>Showreel</h1>
+        <h1 id="showreel-title">Showreel</h1>
 
         <div className="row projects-grid">
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 project">

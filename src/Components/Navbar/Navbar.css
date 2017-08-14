@@ -1,5 +1,19 @@
 #navbar {
-  height: 50px;
+  background: linear-gradient(to bottom,rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,0.8),rgba(88,78,82, 0));
+  background: -moz-linear-gradient(to bottom,rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,0.8),rgba(88,78,82, 0));
+  background: -webkit-linear-gradient(top,rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,1),rgba(88,78,82,0.8),rgba(88,78,82, 0));
+  /*background-color: rgba(88,78,82,1);*/
+  width: 100%;
+  position: fixed;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  top: 0px;
+  right: 0px;
+  z-index: 5;
+}
+
+#navbar-mobile {
+  display: none; /*By default, navbar-mobile is disabled.*/
 }
 
 #navbar-logo {
@@ -22,6 +36,7 @@
   }
 
 ul#navbar-list {
+  background-color: rgba(181, 224, 242, 0);
   color: rgba(181, 224, 242, 1);
   font-weight: 500;
   font-size: 25px;
@@ -33,12 +48,18 @@ ul#navbar-list {
   position: relative;
 }
 
+ul#navbar-list li {
+  background-color: rgba(181, 224, 242, 0);
+}
+
 li#navbar-list-item-first {
+  background-color: none;
   display: inline;
   margin-right: 25px;
 }
 
 #navbar-first-Link {
+  background-color: none;
   color: rgba(181, 224, 242, 1);
   cursor: pointer;
   text-decoration: none;
@@ -49,12 +70,14 @@ li#navbar-list-item-first {
 }
 
 li#navbar-list-item-middle {
+  background-color: none;
   display: inline;
   margin-left: 25px;
   margin-right: 25px;
 }
 
 #navbar-middle-Link {
+  background-color: none;
   color: rgba(181, 224, 242, 1);
   cursor: pointer;
   text-decoration: none;
@@ -65,11 +88,13 @@ li#navbar-list-item-middle {
   }
 
 li#navbar-list-item-last {
+  background-color: none;
   display: inline;
   margin-left: 25px;
 }
 
 #navbar-last-Link {
+  background-color: none;
   color: rgba(181, 224, 242, 1);
   cursor: pointer;
   text-decoration: none;
@@ -78,3 +103,129 @@ li#navbar-list-item-last {
   #navbar-last-Link:hover, #navbar-first-Link:active {
     color: rgba(255, 255, 255, 1);
   }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  #navbar {
+    display: none;
+  }
+
+  #navbar-mobile {
+    display: block;
+  }
+
+  #navbar-logo {
+    cursor: pointer;
+    display: inline;
+    float: right;
+    height: 100px;
+    margin: 10px 10px 10px 10px;
+    position: fixed;
+    top: 0px;
+    right: 50px;
+    border-radius: 10em 10em 10em 10em;
+    border: solid 5px rgba(181, 224, 242, 0.1);
+  }
+
+    #navbar-logo:hover, #navbar-logo:focus, #navbar-logo:active {
+      border: solid 5px rgba(181, 224, 242, 1);
+    }
+
+  .dropdown-menu {
+    position: relative;
+  }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ }
+
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ }
+
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3)
+{ }
+
+/* iPhone 6 Plus portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 3)
+{ }
+
+/* iPhone 6 and 6 Plus */
+@media only screen
+  and (max-device-width: 640px),
+  only screen and (max-device-width: 667px),
+  only screen and (max-width: 480px)
+{ }

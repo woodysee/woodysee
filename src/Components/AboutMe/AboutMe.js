@@ -6,6 +6,11 @@ import './AboutMe.css';
 import profilePicture from './about-me-profile-square.png';
 
 class AboutMe extends Component {
+
+  constructor(props) {
+    super(props);
+  };
+
   render() {
     return (
       <div id="landing-aboutme">

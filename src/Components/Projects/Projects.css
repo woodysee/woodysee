@@ -1,3 +1,16 @@
+#projects-title {
+  color: rgba(255, 255, 255, 1);
+  font-size: 60px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  margin: 150px 100px 0px 100px;
+  -webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadeIn 2s; /* Firefox < 16 */
+    -ms-animation: fadeIn 2s; /* Internet Explorer */
+     -o-animation: fadeIn 2s; /* Opera < 12.1 */
+        animation: fadeIn 2s;
+}
+
 .projects-grid {
   margin: 50px 100px 0px 90px;
 }
@@ -5,6 +18,11 @@
 .project {
   margin-bottom: 50px;
   border-style: none;
+  -webkit-animation: fadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadeIn 3s; /* Firefox < 16 */
+    -ms-animation: fadeIn 3s; /* Internet Explorer */
+     -o-animation: fadeIn 3s; /* Opera < 12.1 */
+        animation: fadeIn 3s;
 }
 
 .project-title {
@@ -13,6 +31,11 @@
   text-align: left;
   font-weight: 500;
   margin: 10px 0 0px 0;
+  -webkit-animation: fadeIn 4s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadeIn 4s; /* Firefox < 16 */
+    -ms-animation: fadeIn 4s; /* Internet Explorer */
+     -o-animation: fadeIn 4s; /* Opera < 12.1 */
+        animation: fadeIn 4s;
 }
 
   .project-title-wip {
