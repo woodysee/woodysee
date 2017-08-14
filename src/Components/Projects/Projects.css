@@ -1,0 +1,77 @@
+.projects-grid {
+  margin: 50px 100px 0px 90px;
+}
+
+.project {
+  margin-bottom: 50px;
+}
+
+.project-title {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  text-align: left;
+  font-weight: 500;
+  margin: 10px 0 0px 0;
+}
+
+  .project-title-wip {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    background-color: rgba(168, 86, 118, 1);
+    color: rgba(255, 255, 255, 1);
+    display: inline;
+    font-size: 12px;
+    margin: 0 0 0 0;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    top: -5px;
+  }
+
+.project-img {
+  background-color: rgba(181, 224, 242, 1);
+  border: solid 0px rgba(181, 224, 242, 1);
+  position: relative;
+  height: 150px;
+  width: 100%;
+  margin: 0 0 0 0;
+  background-size: cover;/* <== Makes the background image cover the area of the <div>, and clip the excess */
+}
+
+  .project-expressive {
+    background-image: url('expressive-image-preview.jpg');
+  }
+
+  .project-swapbooks {
+    background-image: url('swap-books-image-preview.jpg');
+  }
+
+  .project-tollchecker {
+    background-image: url('tollchecker-image-preview.png');
+  }
+
+  .project-deliverydebts {
+    background-image: url('delivery-and-debts-preview.png');
+  }
+
+.project-description {
+  color: rgba(181, 224, 242, 1);
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 10px 0 10px 0;
+  padding: 0 0 0 0;
+}
+
+.project-role:before {
+  color: rgba(255, 255, 255, 1);
+  content: "ROLE";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0 10px 0 0;
+  padding: 0 0 0 0;
+}
+
+.project-role {
+  color: rgba(181, 224, 242, 1);
+  font-weight: 300;
+  letter-spacing: 1px;
+}

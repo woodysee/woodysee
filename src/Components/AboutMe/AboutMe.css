@@ -3,12 +3,11 @@
 }
 
 #aboutme-picture {
-  clip: rect(50px,500px,350px,0px); /*top 50px because it is cropped above*/
-  margin: 0 0 0 0;
-  opacity: 0.7;
-  position: absolute;
+  margin: 55px 0 0 0;
+  opacity: 0.5;
+  position: relative;
   top: -50px;
-  width: 600px;
+  width: 500px;
 }
 
 h1#aboutme-h1 {

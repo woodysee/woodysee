@@ -10,7 +10,7 @@ import Navbar from '../Navbar/Navbar';
 class Showreel extends Component {
   render() {
     return (
-      <div className="Showreel">
+      <div className="showreel">
 
         <Navbar/>
 

@@ -11,7 +11,7 @@ class Navbar extends Component {
     return (
       <div>
         <nav id="navbar">
-          <img id="navbar-logo" src={logo}/>
+          <Link to="/"><img id="navbar-logo" src={logo}/></Link>
           <ul id="navbar-list">
             <li id="navbar-list-item-first">
               <Link id="navbar-first-Link" to="/projects">PROJECTS</Link>

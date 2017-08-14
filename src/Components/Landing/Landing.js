@@ -12,7 +12,7 @@ import AboutMe from '../AboutMe/AboutMe';
 class Landing extends Component {
   render() {
     return (
-      <div className="Landing">
+      <div className="landing">
 
         <Navbar/>
 
