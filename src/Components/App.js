@@ -10,6 +10,7 @@ import './App.css';
 import Landing from './Landing/Landing';
 import Projects from './Projects/Projects';
 import Showreel from './Showreel/Showreel';
+import Contact from './Contact/Contact';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
          <Route exact path="/" component={Landing}/>
          <Route path="/projects" component={Projects}/>
          <Route path="/showreel" component={Showreel}/>
+         <Route path="/contact" component={Contact}/>
         </div>
       </Router>
     );

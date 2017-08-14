@@ -3,6 +3,7 @@
 }
 
 #navbar-logo {
+  cursor: pointer;
   display: inline;
   float: right;
   height: 100px;
@@ -11,6 +12,14 @@
   border-radius: 10em 10em 10em 10em;
   border: solid 5px rgba(181, 224, 242, 0.1);
 }
+
+  #navbar-logo:hover, #navbar-logo:focus, #navbar-logo:active {
+    border: solid 5px rgba(181, 224, 242, 1);
+  }
+
+  #navbar-logo:hover:active {
+    border: solid 5px rgba(168, 86, 118, 1);
+  }
 
 ul#navbar-list {
   color: rgba(181, 224, 242, 1);
@@ -31,7 +40,12 @@ li#navbar-list-item-first {
 
 #navbar-first-Link {
   color: rgba(181, 224, 242, 1);
+  cursor: pointer;
   text-decoration: none;
+}
+
+#navbar-first-Link:hover, #navbar-first-Link:active {
+  color: rgba(255, 255, 255, 1);
 }
 
 li#navbar-list-item-middle {
@@ -42,8 +56,13 @@ li#navbar-list-item-middle {
 
 #navbar-middle-Link {
   color: rgba(181, 224, 242, 1);
+  cursor: pointer;
   text-decoration: none;
 }
+
+  #navbar-middle-Link:hover, #navbar-first-Link:active {
+    color: rgba(255, 255, 255, 1);
+  }
 
 li#navbar-list-item-last {
   display: inline;
@@ -52,5 +71,10 @@ li#navbar-list-item-last {
 
 #navbar-last-Link {
   color: rgba(181, 224, 242, 1);
+  cursor: pointer;
   text-decoration: none;
 }
+
+  #navbar-last-Link:hover, #navbar-first-Link:active {
+    color: rgba(255, 255, 255, 1);
+  }

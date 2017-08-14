@@ -4,11 +4,12 @@
 
 .project {
   margin-bottom: 50px;
+  border-style: none;
 }
 
 .project-title {
   color: rgba(255, 255, 255, 1);
-  font-size: 24px;
+  font-size: 30px;
   text-align: left;
   font-weight: 500;
   margin: 10px 0 0px 0;
@@ -16,10 +17,11 @@
 
   .project-title-wip {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
-    background-color: rgba(168, 86, 118, 1);
-    color: rgba(255, 255, 255, 1);
+    background-color: rgba(181, 224, 242, 1);
+    color: rgba(88, 78, 82, 1);
     display: inline;
     font-size: 12px;
+    font-weight: 800;
     margin: 0 0 0 0;
     padding: 5px 5px 5px 5px;
     position: relative;
@@ -27,8 +29,9 @@
   }
 
 .project-img {
-  background-color: rgba(181, 224, 242, 1);
-  border: solid 0px rgba(181, 224, 242, 1);
+  background-color: rgba(181, 224, 242, 0);
+  border: solid 0px rgba(181, 224, 242, 0);
+  border-style: none;
   position: relative;
   height: 150px;
   width: 100%;
@@ -54,10 +57,12 @@
 
 .project-description {
   color: rgba(181, 224, 242, 1);
+  font-size: 22px;
   font-weight: 500;
   letter-spacing: 1px;
   margin: 10px 0 10px 0;
   padding: 0 0 0 0;
+  text-align: justify;
 }
 
 .project-role:before {
@@ -75,3 +80,28 @@
   font-weight: 300;
   letter-spacing: 1px;
 }
+
+.project-contact-link {
+  background-color: rgba(168, 86, 118, 0.4);
+  border-radius: 0.2em 0.2em 0.2em 0.2em;
+  color: rgba(255, 255, 255, 1);
+  padding: 7px;
+  position: relative;
+  margin: 10px 10px 10px 0px;
+  text-decoration: none;
+  top: 15px;
+}
+
+  .project-contact-link:hover, .project-contact-link:focus {
+    background-color: rgba(168, 86, 118, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+  }
+
+  .project-contact-link:hover:active, .project-contact-link:active {
+    background-color: rgba(181, 224, 242, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: rgba(88, 78, 82, 1);
+    text-decoration: none;
+  }
