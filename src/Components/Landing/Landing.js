@@ -26,7 +26,7 @@ class Landing extends Component {
         <h3>Let your <span>passion</span> be my <span>mission</span>.</h3>
 
         <img id="about-me-header-arrow" src={seeBelowArrow}/>
-        <label id="about-me-header-arrow-label">ABOUT MYSELF</label>
+        {/*<label id="about-me-header-arrow-label">ABOUT MYSELF</label>*/}
         <AboutMe/>
 
       </div>
