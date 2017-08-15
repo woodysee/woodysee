@@ -9,11 +9,6 @@
   position: relative;
   top: -50px;
   width: 500px;
-  -webkit-animation: fadeIn 7s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadeIn 7s; /* Firefox < 16 */
-    -ms-animation: fadeIn 7s; /* Internet Explorer */
-     -o-animation: fadeIn 7s; /* Opera < 12.1 */
-        animation: fadeIn 7s;
 }
 
 h1#aboutme-h1 {
@@ -22,6 +17,11 @@ h1#aboutme-h1 {
   font-weight: 200;
   letter-spacing: 3px;
   margin: 0px 0px 0px 0px;
+  -webkit-animation: fadeIn 7s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadeIn 7s; /* Firefox < 16 */
+    -ms-animation: fadeIn 7s; /* Internet Explorer */
+     -o-animation: fadeIn 7s; /* Opera < 12.1 */
+        animation: fadeIn 7s;
 }
 
 h2#aboutme-h2 {
@@ -31,6 +31,11 @@ h2#aboutme-h2 {
   letter-spacing: 1px;
   margin: 25px 0px 0px 0px;
   text-align: justify;
+  -webkit-animation: fadeIn 7s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadeIn 7s; /* Firefox < 16 */
+    -ms-animation: fadeIn 7s; /* Internet Explorer */
+     -o-animation: fadeIn 7s; /* Opera < 12.1 */
+        animation: fadeIn 7s;
 }
 
 h3#aboutme-h3 {
@@ -40,6 +45,11 @@ h3#aboutme-h3 {
   letter-spacing: 1px;
   margin: 50px 0px 50px 0px;
   text-align: justify;
+  -webkit-animation: fadeIn 7s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadeIn 7s; /* Firefox < 16 */
+    -ms-animation: fadeIn 7s; /* Internet Explorer */
+     -o-animation: fadeIn 7s; /* Opera < 12.1 */
+        animation: fadeIn 7s;
 }
 
 /* Smartphones (portrait and landscape) ----------- */

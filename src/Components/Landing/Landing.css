@@ -171,13 +171,33 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
-/* Styles */
+  #about-me-header-arrow {
+    filter: alpha(opacity=50); /*For IE8 and below*/
+    margin: 120px 45vw 0 45vw;
+    opacity: 0.2;
+    width: 13%;
+  }
+  label#about-me-header-arrow-label {
+    margin: 10px 40vw 0 45vw;
+    opacity: 0.2;
+    text-align: center;
+  }
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen
 and (max-width : 320px) {
-/* Styles */
+  #about-me-header-arrow {
+    filter: alpha(opacity=50); /*For IE8 and below*/
+    margin: 120px 45vw 0 45vw;
+    opacity: 0.2;
+    width: 13%;
+  }
+  label#about-me-header-arrow-label {
+    margin: 10px 40vw 0 42vw;
+    opacity: 0.2;
+    text-align: center;
+  }
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -200,7 +220,17 @@ and (orientation : landscape) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
-  /* Styles */
+  #about-me-header-arrow {
+    filter: alpha(opacity=50); /*For IE8 and below*/
+    margin: 120px 45vw 0 45vw;
+    opacity: 0.2;
+    width: 13%;
+  }
+  label#about-me-header-arrow-label {
+    margin: 10px 40vw 0 44vw;
+    opacity: 0.2;
+    text-align: center;
+  }
 }
 
 /* Desktops and laptops ----------- */
@@ -320,11 +350,6 @@ and (min-width : 1824px) {
     margin: 120px 45vw 0 45vw;
     opacity: 0.2;
     width: 13%;
-    -webkit-animation: fadeIn 6s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadeIn 6s; /* Firefox < 16 */
-      -ms-animation: fadeIn 6s; /* Internet Explorer */
-       -o-animation: fadeIn 6s; /* Opera < 12.1 */
-          animation: fadeIn 6s;
   }
 
   label#about-me-header-arrow-label {
@@ -347,14 +372,25 @@ and (min-width : 1824px) {
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
 }
 /* iPhone 6 landscape */
 @media only screen and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2)
-{ }
+{
+  #about-me-header-arrow {
+    filter: alpha(opacity=50); /*For IE8 and below*/
+    margin: 120px 0vw 0 45vw;
+    opacity: 0.2;
+    width: 13%;
+  }
+  label#about-me-header-arrow-label {
+    margin: 10px 0vw 0 44vw;
+    opacity: 0.2;
+    text-align: center;
+  }
+}
 
 /* iPhone 6 portrait */
 @media only screen
@@ -362,7 +398,19 @@ only screen and (min-device-pixel-ratio : 1.5) {
   and (max-device-width: 667px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2)
-{ }
+{
+  #about-me-header-arrow {
+    filter: alpha(opacity=50); /*For IE8 and below*/
+    margin: 120px 0vw 0 45vw;
+    opacity: 0.2;
+    width: 13%;
+  }
+  label#about-me-header-arrow-label {
+    margin: 10px 0vw 0 44vw;
+    opacity: 0.2;
+    text-align: center;
+  }
+}
 
 /* iPhone 6 Plus landscape */
 @media only screen
@@ -370,7 +418,19 @@ only screen and (min-device-pixel-ratio : 1.5) {
   and (max-device-width: 736px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 3)
-{ }
+{
+  #about-me-header-arrow {
+    filter: alpha(opacity=50); /*For IE8 and below*/
+    margin: 120px 0vw 0 45vw;
+    opacity: 0.2;
+    width: 13%;
+  }
+  label#about-me-header-arrow-label {
+    margin: 10px 0vw 0 44vw;
+    opacity: 0.2;
+    text-align: center;
+  }
+}
 
 /* iPhone 6 Plus portrait */
 @media only screen
@@ -378,7 +438,19 @@ only screen and (min-device-pixel-ratio : 1.5) {
   and (max-device-width: 736px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 3)
-{ }
+{
+  #about-me-header-arrow {
+    filter: alpha(opacity=50); /*For IE8 and below*/
+    margin: 120px 0vw 0 40vw;
+    opacity: 0.2;
+    width: 25%;
+  }
+  label#about-me-header-arrow-label {
+    margin: 10px 40vw 0 44vw;
+    opacity: 0.2;
+    text-align: center;
+  }
+}
 
 /* iPhone 6 and 6 Plus */
 @media only screen
