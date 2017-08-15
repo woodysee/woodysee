@@ -128,3 +128,216 @@
     color: rgba(88, 78, 82, 1);
     text-decoration: none;
   }
+
+
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    #projects-title {
+      color: rgba(255, 255, 255, 1);
+      font-size: 40px;
+      font-weight: 200;
+      letter-spacing: 3px;
+      margin: 150px 0px 0px 30px;
+      -webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadeIn 2s; /* Firefox < 16 */
+          -ms-animation: fadeIn 2s; /* Internet Explorer */
+           -o-animation: fadeIn 2s; /* Opera < 12.1 */
+              animation: fadeIn 2s;
+    }
+
+    .projects-grid {
+      margin: 50px 0px 0px 20px;
+    }
+
+    .project {
+      margin-bottom: 50px;
+      border-style: none;
+      -webkit-animation: fadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeIn 3s; /* Firefox < 16 */
+        -ms-animation: fadeIn 3s; /* Internet Explorer */
+         -o-animation: fadeIn 3s; /* Opera < 12.1 */
+            animation: fadeIn 3s;
+    }
+
+    .project-title {
+      color: rgba(255, 255, 255, 1);
+      font-size: 30px;
+      text-align: left;
+      font-weight: 500;
+      margin: 10px 0 0px 0;
+      -webkit-animation: fadeIn 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeIn 4s; /* Firefox < 16 */
+        -ms-animation: fadeIn 4s; /* Internet Explorer */
+         -o-animation: fadeIn 4s; /* Opera < 12.1 */
+            animation: fadeIn 4s;
+    }
+
+      .project-title-wip {
+        border-radius: 0.5em 0.5em 0.5em 0.5em;
+        background-color: rgba(181, 224, 242, 1);
+        color: rgba(88, 78, 82, 1);
+        display: inline;
+        font-size: 12px;
+        font-weight: 800;
+        margin: 0 0 0 0;
+        padding: 5px 5px 5px 5px;
+        position: relative;
+        top: -5px;
+      }
+
+    .project-img {
+      background-color: rgba(181, 224, 242, 0);
+      border: solid 0px rgba(181, 224, 242, 0);
+      border-style: none;
+      position: relative;
+      height: 150px;
+      width: 100%;
+      margin: 0 0 0 0;
+      background-size: cover;/* <== Makes the background image cover the area of the <div>, and clip the excess */
+    }
+
+    .project-description {
+      color: rgba(181, 224, 242, 1);
+      font-size: 15px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin: 10px 0 10px 0;
+      padding: 0 0 0 0;
+      text-align: justify;
+    }
+
+    .project-role:before {
+      color: rgba(255, 255, 255, 1);
+      content: "ROLE";
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin: 0 10px 0 0;
+      padding: 0 0 0 0;
+    }
+
+    .project-role {
+      color: rgba(181, 224, 242, 1);
+      font-weight: 300;
+      letter-spacing: 1px;
+      font-size: 15px;
+    }
+
+    .project-contact-link {
+      background-color: rgba(168, 86, 118, 0.4);
+      border-radius: 0.2em 0.2em 0.2em 0.2em;
+      color: rgba(255, 255, 255, 1);
+      padding: 7px;
+      position: relative;
+      margin: 10px 10px 10px 0px;
+      text-decoration: none;
+      top: 15px;
+    }
+
+      .project-contact-link:hover, .project-contact-link:focus {
+        background-color: rgba(168, 86, 118, 1);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+      }
+
+      .project-contact-link:hover:active, .project-contact-link:active {
+        background-color: rgba(181, 224, 242, 1);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        color: rgba(88, 78, 82, 1);
+        text-decoration: none;
+      }
+  }
+
+  /* Smartphones (landscape) ----------- */
+  @media only screen
+  and (min-width : 321px) {
+  /* Styles */
+  }
+
+  /* Smartphones (portrait) ----------- */
+  @media only screen
+  and (max-width : 320px) {
+  /* Styles */
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px) {
+  /* Styles */
+  }
+
+  /* iPads (landscape) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : landscape) {
+  /* Styles */
+  }
+
+  /* iPads (portrait) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
+  /* Styles */
+  }
+
+  /* Desktops and laptops ----------- */
+  @media only screen
+  and (min-width : 1224px) {
+  /* Styles */
+  }
+
+  /* Large screens ----------- */
+  @media only screen
+  and (min-width : 1824px) {
+  /* Styles */
+  }
+
+  /* iPhone 4 ----------- */
+  @media
+  only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+  }
+  /* iPhone 6 landscape */
+  @media only screen and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2)
+  { }
+
+  /* iPhone 6 portrait */
+  @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2)
+  { }
+
+  /* iPhone 6 Plus landscape */
+  @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 3)
+  { }
+
+  /* iPhone 6 Plus portrait */
+  @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 3)
+  { }
+
+  /* iPhone 6 and 6 Plus */
+  @media only screen
+    and (max-device-width: 640px),
+    only screen and (max-device-width: 667px),
+    only screen and (max-width: 480px)
+  { }

@@ -21,3 +21,188 @@
      -o-animation: fadeIn 3s; /* Opera < 12.1 */
         animation: fadeIn 3s;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  #showreel-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin: 150px 0px 0px 30px;
+    -webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeIn 2s; /* Firefox < 16 */
+        -ms-animation: fadeIn 2s; /* Internet Explorer */
+         -o-animation: fadeIn 2s; /* Opera < 12.1 */
+            animation: fadeIn 2s;
+  }
+
+  .project-video-frame {
+    border: none;
+    height: 48vw;
+    width: 84vw;
+    -webkit-animation: fadeIn 8s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadeIn 8s; /* Firefox < 16 */
+      -ms-animation: fadeIn 8s; /* Internet Explorer */
+       -o-animation: fadeIn 8s; /* Opera < 12.1 */
+          animation: fadeIn 8s;
+  }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  #showreel-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin: 150px 0px 0px 100px;
+    -webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeIn 2s; /* Firefox < 16 */
+        -ms-animation: fadeIn 2s; /* Internet Explorer */
+         -o-animation: fadeIn 2s; /* Opera < 12.1 */
+            animation: fadeIn 2s;
+  }
+
+  .project-video-frame {
+    border: none;
+    -webkit-animation: fadeIn 8s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadeIn 8s; /* Firefox < 16 */
+      -ms-animation: fadeIn 8s; /* Internet Explorer */
+       -o-animation: fadeIn 8s; /* Opera < 12.1 */
+          animation: fadeIn 8s;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  #showreel-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin: 150px 0px 0px 100px;
+    -webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeIn 2s; /* Firefox < 16 */
+        -ms-animation: fadeIn 2s; /* Internet Explorer */
+         -o-animation: fadeIn 2s; /* Opera < 12.1 */
+            animation: fadeIn 2s;
+  }
+
+  .project-video-frame {
+    border: none;
+    height: 22vw;
+    width: 39vw;
+    -webkit-animation: fadeIn 8s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadeIn 8s; /* Firefox < 16 */
+      -ms-animation: fadeIn 8s; /* Internet Explorer */
+       -o-animation: fadeIn 8s; /* Opera < 12.1 */
+          animation: fadeIn 8s;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  #showreel-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin: 150px 0px 0px 100px;
+    -webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeIn 2s; /* Firefox < 16 */
+        -ms-animation: fadeIn 2s; /* Internet Explorer */
+         -o-animation: fadeIn 2s; /* Opera < 12.1 */
+            animation: fadeIn 2s;
+  }
+
+  .project-video-frame {
+    border: none;
+    height: 20vw;
+    width: 35vw;
+    -webkit-animation: fadeIn 8s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadeIn 8s; /* Firefox < 16 */
+      -ms-animation: fadeIn 8s; /* Internet Explorer */
+       -o-animation: fadeIn 8s; /* Opera < 12.1 */
+          animation: fadeIn 8s;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ }
+
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ }
+
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3)
+{ }
+
+/* iPhone 6 Plus portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 3)
+{ }
+
+/* iPhone 6 and 6 Plus */
+@media only screen
+  and (max-device-width: 640px),
+  only screen and (max-device-width: 667px),
+  only screen and (max-width: 480px)
+{ }

@@ -39,8 +39,8 @@ class Navbar extends Component {
           <div className="dropdown-menu">
             <Link to="/" className="dropdown-item" id="pills-dropdown1-tab" role="tab" aria-controls="pills-dropdown1" onClick={this.onClick}>ABOUT</Link>
             <Link to="/projects" className="dropdown-item" id="pills-dropdown2-tab" role="tab" aria-controls="pills-dropdown2" onClick={this.onClick}>PROJECTS</Link>
-            <Link to="/showreel" className="dropdown-item" id="pills-dropdown2-tab" role="tab" aria-controls="pills-dropdown2" onClick={this.onClick}>SHOWREEL</Link>
-            <Link to="/contact" className="dropdown-item" id="pills-dropdown2-tab" role="tab" aria-controls="pills-dropdown2" onClick={this.onClick}>GET IN TOUCH</Link>
+            <Link to="/showreel" className="dropdown-item" id="pills-dropdown3-tab" role="tab" aria-controls="pills-dropdown3" onClick={this.onClick}>SHOWREEL</Link>
+            <Link to="/contact" className="dropdown-item" id="pills-dropdown4-tab" role="tab" aria-controls="pills-dropdown4" onClick={this.onClick}>GET IN TOUCH</Link>
           </div>
         </li>
       </div>

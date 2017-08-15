@@ -3,7 +3,7 @@
   font-size: 60px;
   font-weight: 200;
   letter-spacing: 3px;
-  margin: 40px 100px 0px 100px;
+  margin: 150px 100px 15px 100px;
   -webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadeIn 2s; /* Firefox < 16 */
     -ms-animation: fadeIn 2s; /* Internet Explorer */
@@ -16,7 +16,7 @@
   font-size: 50px;
   font-weight: 300;
   letter-spacing: 1px;
-  margin: 30px 100px 0px 100px;
+  margin: 15px 100px 10px 100px;
   -webkit-animation: fadeIn 4s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadeIn 4s; /* Firefox < 16 */
     -ms-animation: fadeIn 4s; /* Internet Explorer */
@@ -29,7 +29,8 @@
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 1px;
-  margin: 0px 100px 0px 100px;
+  line-height: 60px;
+  margin: 10px 100px 0px 100px;
   padding: 0 0 0 0;
   text-align: justify;
   -webkit-animation: fadeIn 5s; /* Safari, Chrome and Opera > 12.1 */
@@ -62,3 +63,179 @@
     color: rgba(88, 78, 82, 1);
     text-decoration: none;
   }
+
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    #contact-title {
+      color: rgba(255, 255, 255, 1);
+      font-size: 40px;
+      font-weight: 200;
+      letter-spacing: 3px;
+      margin: 150px 0px 0px 30px;
+      -webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadeIn 2s; /* Firefox < 16 */
+          -ms-animation: fadeIn 2s; /* Internet Explorer */
+           -o-animation: fadeIn 2s; /* Opera < 12.1 */
+              animation: fadeIn 2s;
+    }
+
+    #contact-tagline {
+      color: rgba(181, 224, 242, 1);
+      font-size: 25px;
+      font-weight: 200;
+      letter-spacing: 1px;
+      margin: 20px 0px 0px 30px;
+      -webkit-animation: fadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadeIn 3s; /* Firefox < 16 */
+          -ms-animation: fadeIn 3s; /* Internet Explorer */
+           -o-animation: fadeIn 3s; /* Opera < 12.1 */
+              animation: fadeIn 3s;
+    }
+
+    #contact-description {
+      color: rgba(181, 224, 242, 1);
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 50px;
+      letter-spacing: 1px;
+      margin: 0px 0px 0px 30px;
+      text-align: left;
+      -webkit-animation: fadeIn 4s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadeIn 4s; /* Firefox < 16 */
+          -ms-animation: fadeIn 4s; /* Internet Explorer */
+           -o-animation: fadeIn 4s; /* Opera < 12.1 */
+              animation: fadeIn 4s;
+    }
+  }
+
+  /* Smartphones (landscape) ----------- */
+  @media only screen
+  and (min-width : 321px) {
+    #contact-title {
+      color: rgba(255, 255, 255, 1);
+      font-size: 40px;
+      font-weight: 200;
+      letter-spacing: 3px;
+      margin: 150px 0px 0px 30px;
+      -webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadeIn 2s; /* Firefox < 16 */
+          -ms-animation: fadeIn 2s; /* Internet Explorer */
+           -o-animation: fadeIn 2s; /* Opera < 12.1 */
+              animation: fadeIn 2s;
+    }
+
+    #contact-tagline {
+      color: rgba(181, 224, 242, 1);
+      font-size: 25px;
+      font-weight: 200;
+      letter-spacing: 1px;
+      margin: 20px 0px 0px 30px;
+      -webkit-animation: fadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadeIn 3s; /* Firefox < 16 */
+          -ms-animation: fadeIn 3s; /* Internet Explorer */
+           -o-animation: fadeIn 3s; /* Opera < 12.1 */
+              animation: fadeIn 3s;
+    }
+
+    #contact-description {
+      color: rgba(181, 224, 242, 1);
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 50px;
+      letter-spacing: 1px;
+      margin: 0px 0px 0px 30px;
+      text-align: left;
+      -webkit-animation: fadeIn 4s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadeIn 4s; /* Firefox < 16 */
+          -ms-animation: fadeIn 4s; /* Internet Explorer */
+           -o-animation: fadeIn 4s; /* Opera < 12.1 */
+              animation: fadeIn 4s;
+    }
+  }
+
+  /* Smartphones (portrait) ----------- */
+  @media only screen
+  and (max-width : 320px) {
+  /* Styles */
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px) {
+  /* Styles */
+  }
+
+  /* iPads (landscape) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : landscape) {
+  /* Styles */
+  }
+
+  /* iPads (portrait) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
+  /* Styles */
+  }
+
+  /* Desktops and laptops ----------- */
+  @media only screen
+  and (min-width : 1224px) {
+  /* Styles */
+  }
+
+  /* Large screens ----------- */
+  @media only screen
+  and (min-width : 1824px) {
+  /* Styles */
+  }
+
+  /* iPhone 4 ----------- */
+  @media
+  only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+  }
+  /* iPhone 6 landscape */
+  @media only screen and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2)
+  { }
+
+  /* iPhone 6 portrait */
+  @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2)
+  { }
+
+  /* iPhone 6 Plus landscape */
+  @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 3)
+  { }
+
+  /* iPhone 6 Plus portrait */
+  @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 3)
+  { }
+
+  /* iPhone 6 and 6 Plus */
+  @media only screen
+    and (max-device-width: 640px),
+    only screen and (max-device-width: 667px),
+    only screen and (max-width: 480px)
+  { }
