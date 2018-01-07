@@ -44,8 +44,8 @@ class Projects extends Component {
             <img className="project-img project-deliverydebts"/>
             <h3 className="project-title">Delivery & Debts <span className="project-title-wip">WIP</span></h3>
             <p className="project-description">Abstract minimalist game that challenges the player to deliver lunches and settle a debt before the timer runs out.</p>
-            <a className="project-contact-link" href="https://github.com/woodysee/sg-wdi-10-project-1">GitHub</a>
-            <a className="project-contact-link" href="https://woodysee.github.io/sg-wdi-10-project-1/">Live</a>
+            <a className="project-contact-link" href="https://github.com/woodysee/delivery-and-debts">GitHub</a>
+            <a className="project-contact-link" href="https://woodysee.github.io/delivery-and-debts/">Live</a>
           </div>{/* /.project */}
         </div>{/* /.row projects-grid */}
 
