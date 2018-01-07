@@ -1,7 +1,6 @@
 # Woody See
-The repository for my personal website
+The repository for my personal website.
 
-Stack:
-
-Front-end > HTML5/CSS3, JavaScript, React
-Back-end > Google Firebase
+## Stack: ##
+- Front-end: HTML5 / CSS3, JavaScript, React JS
+- Back-end: Google Firebase
