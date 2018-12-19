@@ -62,21 +62,29 @@
   background-size: cover;/* <== Makes the background image cover the area of the <div>, and clip the excess */
 }
 
-  .project-expressive {
-    background-image: url('expressive-image-preview.jpg');
-  }
+.project-airfrov {
+  background-image: url('airfrov-image-preview.png');
+}
 
-  .project-swapbooks {
-    background-image: url('swap-books-image-preview.jpg');
-  }
+.project-frizzy {
+  background-image: url('frizzy-image-preview.png');
+}
 
-  .project-tollchecker {
-    background-image: url('tollchecker-image-preview.png');
-  }
+.project-expressive {
+  background-image: url('expressive-image-preview.jpg');
+}
 
-  .project-deliverydebts {
-    background-image: url('delivery-and-debts-preview.png');
-  }
+.project-swapbooks {
+  background-image: url('swap-books-image-preview.jpg');
+}
+
+.project-tollchecker {
+  background-image: url('tollchecker-image-preview.png');
+}
+
+.project-deliverydebts {
+  background-image: url('delivery-and-debts-preview.png');
+}
 
 .project-description {
   color: rgba(181, 224, 242, 1);
