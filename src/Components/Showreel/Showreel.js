@@ -19,6 +19,7 @@ class Showreel extends Component {
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 project">
             <iframe
               className="project-video-frame"
+              title="SMU FE 2012: Convocation"
               src="https://player.vimeo.com/video/49072284?color=A1EBFF&title=0&byline=0&portrait=0"
               frameBorder="0"
               webkitallowfullscreen="true"
@@ -35,6 +36,7 @@ class Showreel extends Component {
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 project">
             <iframe
               className="project-video-frame"
+              title="The Shituation"
               src="https://player.vimeo.com/video/55931250?color=A1EBFF&title=0&byline=0&portrait=0"
               frameBorder="0"
               webkitallowfullscreen="true"
@@ -52,6 +54,7 @@ class Showreel extends Component {
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 project">
             <iframe
               className="project-video-frame"
+              title="VPH 2012: Auditions"
               src="https://player.vimeo.com/video/49582666?color=A1EBFF&title=0&byline=0&portrait=0"
               frameBorder="0"
               webkitallowfullscreen="true"
@@ -72,6 +75,7 @@ class Showreel extends Component {
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 project">
             <iframe
               className="project-video-frame"
+              title="Smugger Zombies"
               src="https://player.vimeo.com/video/42646324?color=A1EBFF&title=0&byline=0&portrait=0"
               frameBorder="0"
               webkitallowfullscreen="true"

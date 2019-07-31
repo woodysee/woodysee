@@ -10,25 +10,26 @@ import Navbar from '../Navbar/Navbar';
 import AboutMe from '../AboutMe/AboutMe';
 
 class Landing extends Component {
-
-  constructor(props) {
-    super(props);
-  };
-
   render() {
     return (
       <div className="landing">
-
-        <Navbar/>
+        <Navbar />
 
         <h1>Hello &amp; welcome.</h1>
-        <h2>I am a web developer who aspires to build friendly user interfaces &amp; good user experiences.</h2>
-        <h3>Let your <span>passion</span> be my <span>mission</span>.</h3>
+        <h2>
+          I am a web developer who aspires to build friendly user interfaces
+          &amp; good user experiences.
+        </h2>
+        <h3>
+          Let your <span>passion</span> be my <span>mission</span>.
+        </h3>
 
-        <img id="about-me-header-arrow" src={seeBelowArrow}/>
-        {/*<label id="about-me-header-arrow-label">ABOUT MYSELF</label>*/}
-        <AboutMe/>
-
+        <img
+          alt="Below the fold arrow"
+          id="about-me-header-arrow"
+          src={seeBelowArrow}
+        />
+        <AboutMe />
       </div>
     );
   }
